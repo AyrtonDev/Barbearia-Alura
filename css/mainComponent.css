@@ -1,0 +1,56 @@
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+.menu {
+   position: absolute;
+   top: 40px;
+   right: 0;
+   background-color: whitesmoke;
+   width: 400px;
+}
+
+.menu .list {
+   display: flex;
+   justify-content: space-around;
+   padding: 0 10px;
+   list-style: none;
+   margin: 0;
+}
+
+.menu .list__item{
+   height: 100%;   
+   padding: 10px 0;
+}
+
+.menu a {
+   padding: 10px 5px;
+   text-transform: uppercase;
+   color: #000000;  
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+   transition: all ease .5s;
+}
+
+.menu a:hover{
+   background-color: black;
+   color: #c78c19;
+
+}
+
+/*estilo Rodapé*/
+
+footer {
+   text-align: center;
+   background: url("./image/bg.jpg");
+   padding: 40px 0;
+}
+
+.copyright {
+   color: #ffffff;
+   font-size: 13px;
+   margin: 20px 0 0;
+}
